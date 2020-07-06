@@ -1,0 +1,26 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Testing Purpuse Only</title>
+    </head>
+        <body>
+            <h1>Hello Neeraj this Side</h1>
+            <H2>Being a good friend I need your help</H2>
+            <h3>Please Message me your feedback</h3>
+           <h3>like whichs questions were not answered correctly and What more should be added to it</h3>
+           <H2>Please Help me to get improve this Bot</H2>
+<div id="webchat"/>
+<script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+// Or you can replace latest with a specific version
+<script>
+  WebChat.default.init({
+    selector: "#webchat",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://d583140c7547.ngrok.io",
+    socketPath: "/socket.io/",
+    title: "Codeman0001 Bot",
+    subtitle: "Pehle Istemal Kar Phir Viswas kare",
+  })
+</script>
+        </body>
+</html>
